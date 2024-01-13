@@ -27,3 +27,6 @@ function generatePassword() {
 
     document.getElementById("password").value = password;
 }
+function updatePasswordLength(value) {
+    document.getElementById("rangeVal").textContent = value;
+}
